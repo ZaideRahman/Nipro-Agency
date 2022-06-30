@@ -1,0 +1,159 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.logo h1{
+	font-size: 20px;
+}	
+.nav_t:focus {
+
+     box-shadow:none;
+ }
+.menu ul li a{
+    padding: 10px 0 0!important;
+}
+.s_ddm {
+    width: 245px;
+    padding: 5px 5px;
+}
+.s_ddm[data-bs-popper] {
+    top: 0px;
+    left: 47px;
+}
+   
+
+.s_input {
+    border: none;
+    padding: 0;
+}
+.s_btn {
+
+    padding: 0 8px;
+
+}
+/*header end*/
+
+    /*banner*/
+    .bs_item{
+    margin-top: 100px;
+    margin-bottom: 120px;}
+    .bs_item h2 {
+
+    font-size: 26px;
+   
+    
+}
+.bs_item p{
+    font-size: 15px;
+}
+.bs_item button {
+    width: 140px;
+    height: 45px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+
+.nav_t:focus {
+
+     box-shadow:none;
+ }
+.menu ul li a{
+    padding: 15px 0 0!important;
+}
+.s_ddm[data-bs-popper] {
+	top: 0;
+	left: 100px;
+
+}
+/*header end*/
+ /*banner*/
+    .bs_item{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    }
+    .bs_item h2 {
+
+    font-size: 45px;
+   
+    
+}
+.bs_item button {
+    width: 150px;
+    height: 45px;
+}
+.button_pn{
+    text-align: center;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+
+.nav_t:focus {
+
+     box-shadow:none;
+ }
+.menu ul li a{
+    padding: 15px 0 0!important;
+}
+.s_ddm[data-bs-popper] {
+	top: 0;
+	left: 100px;
+
+}
+/*header end*/
+    /*banner*/
+    .bs_item{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    }
+    .bs_item h2 {
+
+    font-size: 45px;
+   
+    
+}
+.bs_item button {
+    width: 150px;
+    height: 45px;
+}
+.button_pn{
+    text-align: center;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*banner*/
+    .bs_item h2 {
+
+    font-size: 46px;
+    
+}
+.bs_item button {
+    width: 180px;
+    height: 45px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*banner*/
+    .bs_item h2 {
+
+    font-size: 55px;
+    
+}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
